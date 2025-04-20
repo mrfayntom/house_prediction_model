@@ -2,12 +2,9 @@
 
 ![House Prediction](https://i.pinimg.com/736x/0e/c2/94/0ec294ac6fc6e583ad648f9aefd01666.jpg)
 
-A simple yet effective machine learning model to predict house prices based on provided features. The project uses a dataset of 100 entries to train and evaluate a regression model with a **71% accuracy**. All training code is available in `train.py`, and the model can be reused or modified for further improvement.
+This was a basic project to help me understand how machine learning models are trained. I created a simple house price prediction model using a dataset with 100 entries. The dataset included features like area (in square feet), number of bedrooms, and location. The target variable was the price (in lakhs). I found a basic dataset online and manually copied 100 entries into my working file.
 
----
-
-## 📁 Project Structure
-
+The main goal of this project was to learn the steps of preprocessing and training a regression model.
 
 
 ---
@@ -30,17 +27,6 @@ The dataset (`data.csv`) consists of 100 house entries with various features suc
 - Location score  
 - Year built  
 - ...and more  
-
-Ensure that the dataset is in the same directory as `train.py` or modify the path accordingly.
-
----
-
-## 📦 Installation
-
-Install the required dependencies using the following command:
-
-```bash
-pip install pandas numpy joblib scikit-learn matplotlib
 
 Ensure that the dataset is in the same directory as `train.py` or modify the path accordingly.
 
