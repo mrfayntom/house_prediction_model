@@ -9,6 +9,9 @@ A simple yet effective machine learning model to predict house prices based on p
 ## 📁 Project Structure
 
 
+
+---
+
 ## 🧠 Model Overview
 
 - The model is trained using scikit-learn.
@@ -27,6 +30,17 @@ The dataset (`data.csv`) consists of 100 house entries with various features suc
 - Location score  
 - Year built  
 - ...and more  
+
+Ensure that the dataset is in the same directory as `train.py` or modify the path accordingly.
+
+---
+
+## 📦 Installation
+
+Install the required dependencies using the following command:
+
+```bash
+pip install pandas numpy joblib scikit-learn matplotlib
 
 Ensure that the dataset is in the same directory as `train.py` or modify the path accordingly.
 
